@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'Inter', sans-serif;
+}
+
+/*Toppmeny*/
+
+header {
+     width: 100%;
+     height: 80px;
+     padding: 0px 20px;
+     background-color: black;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#logo {
+     flex-basis: 40%;
+     color: white;
+     padding-left: 20px;
+}
+
+nav {
+     flex-basis: 40%;
+     display: flex;
+}
+
+nav a {
+     text-decoration: none;
+     color: white;
+     text-align: center;
+     flex-grow: 1;
+}
+
+.hovedlogo {
+     text-decoration: none;
+     color: white;
+     padding-left: 20px;
+}
+
+footer {
+     color: white;
+     background-color: black;
+     padding: 30px;
+     text-align: center;
+     margin-top: 20px;
+}
+
+/*Dame Herre Barn Knapp*/
+
+.dameknapp {
+     background-color: rgb(211, 211, 211);
+     color: rgb(90,90,90);
+     border: none;
+     height: 40px;
+     width: 100px;
+     cursor: pointer;
+     margin-left: 40px;
+     margin-right: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+.herreknapp {
+     background-color: rgb(255, 255, 255);
+     color: rgb(90,90,90);
+     border: none;
+     height: 40px;
+     width: 100px;
+     cursor: pointer;
+     margin-right: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     transition: opacity 0.3s;
+}
+.barnknapp {
+     background-color: rgb(255, 255, 255);
+     color: rgb(90,90,90);
+     border: none;
+     height: 40px;
+     width: 100px;
+     cursor: pointer;
+     margin-right: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     transition: opacity 0.3s;
+}
+
+.herreknapp:hover {
+     opacity: 0.4;
+}
+
+.barnknapp:hover {
+     opacity: 0.4;
+}
+
+/*Banner*/
+
+.container {
+     width: 100%;
+     height: 60vh;
+     background-image: url(../img/banner.png);
+     background-size: cover;
+     background-position: 35%;
+     border-radius: 10px;
+     margin-bottom: 30px;
+     border-radius: 0%;
+}
+
+.banner {
+     width: 100%;
+     height: 85vh;
+}
+
+.bannertekst {
+     padding-top: 100px;
+     margin-left: 50px;
+     letter-spacing: 5px;
+     font-weight: bold;
+     font-size: 25px;
+}
+
+.salg {
+     padding-top: 30px;
+     margin-left: 50px;
+     letter-spacing: 5px;
+     font-weight: bold;
+     font-size: 45px;
+}
+
+#salgknapp {
+     width: 130px;
+     height: 35px;
+     font-weight: bold;
+     background-color: black;
+     color: white;
+     margin-left: 50px;
+     margin-top: 30px;
+     cursor: pointer;
+     transition: opacity 0.3s;
+     border: none;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+#salgknapp:hover {
+     opacity: 0.5;
+}
+
+/*Hovedside produkter*/
+
+.produkter {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+main {
+     max-width: 900px;
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+     padding: 2rem;
+}
+
+#sko1 {
+     padding-right: 50px;
+     margin-left: 0 auto;
+     text-align: left;
+     padding-left: 100px;
+     padding-bottom: 40px;
+}
+
+.bildesko1 {
+     display: inline-block;
+     width: 200px;
+     vertical-align: top;
+     transition: opacity 0.5s;
+     cursor: pointer;
+     padding-bottom: 10px;
+}
+
+#sko2 {
+     padding-right: 30px;
+     padding-left: 100px;
+     text-align: left;
+     padding-bottom: 40px;
+}
+
+.bildesko2 {
+     display: inline-block;
+     width: 200px;
+     vertical-align: top;
+     transition: opacity 0.5s;
+     cursor: pointer;
+     padding-bottom: 10px;
+}
+
+#sko3 {
+     padding-right: 50px;
+     padding-left: 100px;
+     text-align: left;
+     padding-bottom: 40px;
+}
+
+.bildesko3 {
+     display: inline-block;
+     width: 200px;
+     vertical-align: top;
+     transition: opacity 0.5s;
+     cursor: pointer;
+     padding-bottom: 10px;
+}
+
+#sko4 {
+     padding-right: 30px;
+     padding-left: 100px;
+     text-align: left;
+     padding-bottom: 40px;
+}
+
+.bildesko4 {
+     display: inline-block;
+     width: 200px;
+     vertical-align: top;
+     transition: opacity 0.5s;
+     cursor: pointer;
+     padding-bottom: 10px;
+}
+
+#sko5 {
+     padding-right: 50px;
+     padding-left: 100px;
+     text-align: left;
+     padding-bottom: 40px;
+}
+
+.bildesko5 {
+     display: inline-block;
+     width: 200px;
+     vertical-align: top;
+     transition: opacity 0.5s;
+     cursor: pointer;
+     padding-bottom: 10px;
+}
+
+#sko6 {
+     padding-right: 30px;
+     padding-left: 100px;
+     text-align: left;
+     padding-bottom: 40px;
+}
+
+.bildesko6 {
+     display: inline-block;
+     width: 200px;
+     vertical-align: top;
+     transition: opacity 0.5s;
+     cursor: pointer;
+     padding-bottom: 10px;
+}
+
+.bildesko1:hover {
+     opacity: 0.6;
+}
+
+.bildesko2:hover {
+     opacity: 0.6;
+}
+
+.bildesko3:hover {
+     opacity: 0.6;
+}
+
+.bildesko4:hover {
+     opacity: 0.6;
+}
+
+.bildesko5:hover {
+     opacity: 0.6;
+}
+
+.bildesko6:hover {
+     opacity: 0.6;
+}
+
+.info {
+     color: rgb(106,106,106);
+     padding-top: 4px;
+     padding-bottom: 4px;
+}
+
+.semer {
+     background-color: rgb(255, 255, 255);
+     color: rgb(90,90,90);
+     border: none;
+     height: 40px;
+     width: 100px;
+     cursor: pointer;
+     margin-right: 80px;
+     font-size: 15px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     transition: opacity 0.3s;
+}
+
+.semer:hover {
+     opacity: 0.4;
+}
+
+.skoprodukt {
+     display: inline-block;
+     width: 440px;
+     vertical-align: top;
+     transition: opacity 0.5s;
+     cursor: pointer;
+     padding-bottom: 10px;
+}
+
+.produktinfo {
+     display: inline-block;
+     padding-left: 20px;
+     font-size: 20px;
+}
+
+/*Produktside*/
+
+produktside {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+     align-items: start;
+     padding: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+ }
+ 
+ .produktbilder {
+     display: flex;
+     flex-direction: column;
+     grid-column: span 1;
+ }
+ 
+ .produktbilder img {
+     width: 100px;
+     height: 100px;
+     margin-bottom: 20px;
+     grid-column: span 1;
+ }
+ 
+ .hovedprodukt {
+     grid-column: span 2;
+     max-width: 100%; 
+     height: auto; 
+ }
+ 
+ .produktnavn {
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+ 
+ .produktinformasjon {
+     font-size: 11px;
+     margin-bottom: 10px;
+     color: rgb(129,129,129);
+     grid-column: span 2;
+     margin-top: 0;
+     width: 100%;
+ }
+ 
+ .leggtil {
+     padding-top: 15px;
+     padding-bottom: 15px;
+     background-color: black;
+     font-size: 15px;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+     transition: opacity 0.3s;
+ }
+
+ .leggtil:hover {
+     opacity: 0.7;
+}
+
+ #størrelsevalg {
+     color: black;
+     border-color: rgb(175,175,175);
+     background-color: rgb(237,237,237);
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 10px;
+     margin-bottom: 20px;
+     margin-top: 15px;
+     width: 100%;
+}
+
+ #fargevalg {
+     color: black;
+     border-color: rgb(175,175,175);
+     background-color: rgb(237,237,237);
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 10px;
+     margin-bottom: 15px;
+     width: 100%;
+}
+
+.produktpris {
+     margin-bottom: 20px;
+     margin-top: 20px;
+     font-size: 25px;
+}
+ 
+ 
+ @media (max-width: 600px) {
+     produktside {
+         grid-template-columns: 1fr;
+     }
+     .produktbilder {
+         display: none;
+     }
+ }
+
+/*Handlekurv Side*/
+
+#antallvarer {
+     margin-left: 10px;
+     font-size: 20px;
+}
+
+.handlekurvcontainer {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 40px;
+     padding: 20px;
+     margin-left: 10px;
+     margin-right: 20px;
+ }
+
+ .handlekurvsko {
+     display: flex;
+     align-items: center;
+     padding: 10px;
+ }
+
+ .skobilde {
+     flex: 1;
+     max-width: 100px;
+     margin-right: 10px;
+ }
+
+ .detaljer {
+     flex: 2;
+ }
+
+ .pris {
+     flex: 1;
+     margin-right: 10px;
+ }
+
+ .betalknapp {
+     text-align: center;
+     background-color: black;
+     color: #fff;
+     padding: 10px;
+     padding-left: 170px;
+     padding-right: 170px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     border: none;
+     cursor: pointer;
+     margin-left: 40px;
+     font-size: 15px;
+     transition: opacity 0.3s;
+ }
+
+ .fjern {
+     background-color: rgb(246, 246, 246);
+     color: black;
+     padding: 5px 10px;
+     border: none;
+     cursor: pointer;
+     margin-right: 10px;
+ }
+
+ #totalsum {
+     margin-left: 40px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+.skoinfo {
+     color: rgb(129,129,129);
+     font-size: 12px;
+     margin-top: 2px;
+}
+
+.skopris {
+     margin-top: 15px;
+     color: rgb(77,77,77);
+}
+
+.betalknapp:hover {
+     opacity: 0.7;
+}
+
+.fjern:hover {
+     opacity: 0.7;
+}
